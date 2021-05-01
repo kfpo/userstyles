@@ -2,6 +2,7 @@
 @name YT
 @namespace WTF
 @description YT
+@version 1.0
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.youtube.com/watch?v="), url-prefix("https://www.youtube.com/embed"), domain("www.youtube-nocookie.com") {
