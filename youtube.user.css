@@ -2,7 +2,7 @@
 @name YT
 @namespace WTF
 @description YT
-@version 1.0
+@version 1.0.0
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.youtube.com/watch?v="), url-prefix("https://www.youtube.com/embed"), domain("www.youtube-nocookie.com") {
@@ -30,9 +30,10 @@ ytd-app #masthead-container.ytd-app {
 
 /* PLAYER */
 /* ytd-watch-flexy[theater] - to determine theater mode */
-ytd-watch-flexy #player-theater-container.ytd-watch-flexy { 
+ytd-watch-flexy #player-theater-container.ytd-watch-flexy {
 	max-height: 100vh !important;
 }
+
 .ytp-progress-bar-container {
 	bottom: 0 !important;
 }
